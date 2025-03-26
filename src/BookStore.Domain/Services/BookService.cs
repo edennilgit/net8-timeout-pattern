@@ -26,6 +26,7 @@ namespace BookStore.Domain.Services
 
         public async Task<Book> GetById(int id, CancellationToken cancellationToken)
         {
+            //prueba analisis
             return await _bookRepository.GetById(id, cancellationToken);
         }
 
